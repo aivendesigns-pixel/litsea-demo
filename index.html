@@ -718,18 +718,139 @@
   .hero-actions { animation: fadeUp 0.6s 0.4s ease both; }
 
   /* ── RESPONSIVE ── */
-  @media (max-width: 900px) {
-    nav { padding: 16px 24px; }
+  /* ── TABLET ── */
+  @media (max-width: 1024px) {
+    .menu-grid { grid-template-columns: repeat(2, 1fr); }
+    .section-menu { padding: 80px 48px; }
+    .section-about { padding: 80px 48px; gap: 60px; }
+    .section-order { padding: 80px 48px; gap: 60px; }
+  }
+
+  /* ── MOBILE ── */
+  @media (max-width: 768px) {
+
+    /* NAV */
+    nav {
+      padding: 16px 20px;
+      position: fixed;
+    }
     .nav-links { display: none; }
-    .hero { grid-template-columns: 1fr; }
-    .hero-right { min-height: 300px; }
-    .hero-left { padding: 48px 24px; }
+    .nav-logo { font-size: 18px; }
+    .nav-reserve {
+      padding: 8px 16px;
+      font-size: 11px;
+    }
+
+    /* HERO */
+    .hero {
+      grid-template-columns: 1fr;
+      min-height: auto;
+      padding-top: 64px;
+    }
+    .hero-left {
+      padding: 48px 24px 40px;
+      order: 2;
+    }
+    .hero-right {
+      order: 1;
+      min-height: 260px;
+      max-height: 320px;
+    }
+    .hero-badge {
+      bottom: 20px;
+      left: 20px;
+    }
+    .hero-badge-zh { font-size: 22px; letter-spacing: 0.15em; }
+    .hero-badge-en { font-size: 14px; }
+    .hero-tag { font-size: 10px; margin-bottom: 16px; }
+    .hero-zh { font-size: 48px; }
+    .hero-en { font-size: 20px; margin-bottom: 20px; }
+    .hero-desc { font-size: 17px; margin-bottom: 32px; }
+    .hero-actions { flex-direction: column; align-items: flex-start; gap: 16px; }
+    .btn-primary { width: 100%; text-align: center; padding: 16px 24px; }
+    .btn-secondary { padding: 0; }
+
+    /* INFO BAR */
     .info-bar { grid-template-columns: 1fr; }
-    .info-item { border-right: none; border-bottom: 1px solid rgba(90,140,74,0.15); }
-    .section-menu, .section-about, .section-order { padding: 60px 24px; }
-    .menu-grid { grid-template-columns: 1fr; }
-    .section-order, .section-about { grid-template-columns: 1fr; gap: 40px; }
-    footer { grid-template-columns: 1fr; padding: 48px 24px 32px; }
+    .info-item {
+      padding: 20px 24px;
+      border-right: none;
+      border-bottom: 1px solid rgba(90,140,74,0.15);
+    }
+    .info-item:last-child { border-bottom: none; }
+    .info-label { font-size: 10px; }
+    .info-value { font-size: 15px; }
+
+    /* MENU */
+    .section-menu { padding: 56px 20px; }
+    .section-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .menu-grid { grid-template-columns: 1fr; gap: 2px; }
+    .menu-card { padding: 28px 24px; }
+    .menu-card-img {
+      width: calc(100% + 48px);
+      margin: -28px -24px 20px -24px;
+      height: 180px;
+    }
+    .menu-card-zh { font-size: 20px; }
+    .menu-card-en { font-size: 14px; }
+    .menu-card-price { font-size: 16px; }
+    .section-title-zh { font-size: 32px; }
+
+    /* ORDER */
+    .section-order {
+      grid-template-columns: 1fr;
+      padding: 56px 20px;
+      gap: 40px;
+    }
+    .order-title { font-size: 32px; }
+    .order-desc { font-size: 17px; }
+    .order-buttons { flex-direction: column; }
+    .btn-order { justify-content: center; }
+    .order-info-panel { padding: 28px 20px; }
+    .hours-day { font-size: 15px; }
+    .hours-time { font-size: 13px; }
+    .contact-value { font-size: 15px; }
+
+    /* ABOUT */
+    .section-about {
+      grid-template-columns: 1fr;
+      padding: 56px 20px;
+      gap: 40px;
+    }
+    .about-visual { aspect-ratio: 16/9; }
+    .about-visual-text { font-size: 28px; }
+    .about-visual-sub { font-size: 13px; }
+    .about-body { font-size: 17px; }
+    .about-highlight { font-size: 20px; padding-left: 18px; }
+
+    /* FOOTER */
+    footer {
+      grid-template-columns: 1fr;
+      padding: 48px 20px 32px;
+      gap: 32px;
+    }
+    .footer-bottom {
+      flex-direction: column;
+      gap: 8px;
+      text-align: center;
+    }
+    .footer-brand-zh { font-size: 24px; }
+    .footer-links a { font-size: 15px; }
+    .footer-address { font-size: 15px; }
+  }
+
+  /* ── SMALL MOBILE ── */
+  @media (max-width: 390px) {
+    .hero-zh { font-size: 40px; }
+    .hero-desc { font-size: 16px; }
+    .section-title-zh { font-size: 28px; }
+    .order-title { font-size: 28px; }
+    .menu-card-zh { font-size: 18px; }
   }
 </style>
 </head>
