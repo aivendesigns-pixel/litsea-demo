@@ -3,18 +3,26 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>巡南记 Litsea Cuisine — Authentic Yunnan</title>
+<title>鹿鸣轩 Lumingxuan — Authentic Cantonese Private Kitchen | Scarborough, Toronto</title>
+<meta name="description" content="鹿鸣轩 Lumingxuan — 多伦多正宗粤式私房菜。传统广府风味，烧腊、煲仔饭、靓汤。Authentic Cantonese private kitchen in Scarborough, Toronto.">
+<meta name="keywords" content="粤菜, Cantonese cuisine, 鹿鸣轩, Lumingxuan, Scarborough, Toronto, 烧腊, roast meat, 私房菜, private kitchen">
+<meta property="og:title" content="鹿鸣轩 Lumingxuan — Authentic Cantonese">
+<meta property="og:description" content="多伦多正宗粤式私房菜。Authentic Cantonese private kitchen in Scarborough, Toronto.">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="zh_CN">
+<meta name="theme-color" content="#1a0e05">
 <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300;400;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --ink: #0f1a0d;
-    --cream: #f0f4ee;
-    --warm: #dde8d8;
-    --red: #2d6e3e;
-    --gold: #5a8c4a;
-    --green: #1e4a28;
-    --muted: #5a7055;
+    --ink: #1a0e05;
+    --cream: #fdf6ec;
+    --warm: #f5e8d0;
+    --red: #b8610a;
+    --gold: #c9960c;
+    --green: #7a3f08;
+    --muted: #8a6a45;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -37,9 +45,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 48px;
-    background: rgba(240,244,238,0.92);
+    background: rgba(253,246,236,0.92);
     backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(90,140,74,0.2);
+    border-bottom: 1px solid rgba(201,150,12,0.25);
   }
 
   .nav-logo {
@@ -206,8 +214,8 @@
     content: '';
     position: absolute;
     inset: 0;
-    background: linear-gradient(to right, rgba(15,26,13,0.45) 0%, rgba(15,26,13,0.1) 60%),
-                linear-gradient(to top, rgba(15,26,13,0.65) 0%, transparent 45%);
+    background: linear-gradient(to right, rgba(26,14,5,0.45) 0%, rgba(26,14,5,0.1) 60%),
+                linear-gradient(to top, rgba(26,14,5,0.65) 0%, transparent 45%);
     pointer-events: none;
   }
 
@@ -244,12 +252,12 @@
     background: var(--ink);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    border-top: 1px solid rgba(90,140,74,0.3);
+    border-top: 1px solid rgba(201,150,12,0.3);
   }
 
   .info-item {
     padding: 28px 40px;
-    border-right: 1px solid rgba(90,140,74,0.15);
+    border-right: 1px solid rgba(201,150,12,0.15);
     display: flex;
     align-items: center;
     gap: 16px;
@@ -289,7 +297,7 @@
     justify-content: space-between;
     margin-bottom: 64px;
     padding-bottom: 32px;
-    border-bottom: 1px solid rgba(90,140,74,0.25);
+    border-bottom: 1px solid rgba(201,150,12,0.25);
   }
 
   .section-tag {
@@ -321,7 +329,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2px;
-    background: rgba(90,140,74,0.15);
+    background: rgba(201,150,12,0.15);
   }
 
   .menu-card {
@@ -422,7 +430,7 @@
   .order-desc {
     font-size: 20px;
     line-height: 1.8;
-    color: rgba(240,244,238,0.55);
+    color: rgba(253,246,236,0.55);
     margin-bottom: 40px;
   }
 
@@ -437,7 +445,7 @@
     align-items: center;
     gap: 12px;
     padding: 16px 28px;
-    border: 1px solid rgba(90,140,74,0.4);
+    border: 1px solid rgba(201,150,12,0.4);
     color: var(--cream);
     text-decoration: none;
     font-family: 'Space Mono', monospace;
@@ -454,7 +462,7 @@
   }
 
   .order-info-panel {
-    border: 1px solid rgba(90,140,74,0.25);
+    border: 1px solid rgba(201,150,12,0.25);
     padding: 40px;
   }
 
@@ -471,7 +479,7 @@
     display: flex;
     justify-content: space-between;
     padding: 12px 0;
-    border-bottom: 1px solid rgba(90,140,74,0.1);
+    border-bottom: 1px solid rgba(201,150,12,0.1);
   }
 
   .hours-row:last-of-type { border-bottom: none; }
@@ -479,7 +487,7 @@
   .hours-day {
     font-family: 'Cormorant Garamond', serif;
     font-size: 17px;
-    color: rgba(240,244,238,0.6);
+    color: rgba(253,246,236,0.6);
   }
 
   .hours-time {
@@ -490,7 +498,7 @@
 
   .hours-divider {
     border: none;
-    border-top: 1px solid rgba(90,140,74,0.15);
+    border-top: 1px solid rgba(201,150,12,0.15);
     margin: 24px 0;
   }
 
@@ -549,15 +557,15 @@
     position: absolute;
     inset: 0;
     background: 
-      radial-gradient(ellipse at 20% 80%, rgba(30,74,40,0.2) 0%, transparent 50%),
-      radial-gradient(ellipse at 80% 20%, rgba(90,140,74,0.15) 0%, transparent 50%);
+      radial-gradient(ellipse at 20% 80%, rgba(122,63,8,0.2) 0%, transparent 50%),
+      radial-gradient(ellipse at 80% 20%, rgba(201,150,12,0.15) 0%, transparent 50%);
   }
 
   .about-visual-char {
     font-family: 'Noto Serif SC', serif;
     font-size: 180px;
     font-weight: 300;
-    color: rgba(90,140,74,0.12);
+    color: rgba(201,150,12,0.12);
     line-height: 1;
     position: absolute;
     top: 50%;
@@ -579,7 +587,7 @@
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 16px;
-    color: rgba(240,244,238,0.4);
+    color: rgba(253,246,236,0.4);
     letter-spacing: 0.2em;
     margin-top: 12px;
     position: relative;
@@ -618,7 +626,7 @@
     font-size: 12px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    border: 1px solid rgba(90,140,74,0.35);
+    border: 1px solid rgba(201,150,12,0.35);
     color: var(--gold);
     padding: 8px 14px;
   }
@@ -630,7 +638,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
-    border-top: 1px solid rgba(90,140,74,0.2);
+    border-top: 1px solid rgba(201,150,12,0.2);
   }
 
   .footer-brand-zh {
@@ -653,7 +661,7 @@
 
   .footer-tagline {
     font-size: 16px;
-    color: rgba(240,244,238,0.35);
+    color: rgba(253,246,236,0.35);
     line-height: 1.8;
   }
 
@@ -675,7 +683,7 @@
 
   .footer-links a {
     font-size: 17px;
-    color: rgba(240,244,238,0.45);
+    color: rgba(253,246,236,0.45);
     text-decoration: none;
     transition: color 0.2s;
   }
@@ -684,7 +692,7 @@
 
   .footer-address {
     font-size: 17px;
-    color: rgba(240,244,238,0.45);
+    color: rgba(253,246,236,0.45);
     line-height: 1.8;
   }
 
@@ -694,14 +702,14 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 32px;
-    border-top: 1px solid rgba(90,140,74,0.12);
+    border-top: 1px solid rgba(201,150,12,0.12);
     margin-top: 20px;
   }
 
   .footer-copy {
     font-family: 'Space Mono', monospace;
     font-size: 12px;
-    color: rgba(240,244,238,0.2);
+    color: rgba(253,246,236,0.2);
     letter-spacing: 0.12em;
   }
 
@@ -775,7 +783,7 @@
     .info-item {
       padding: 20px 24px;
       border-right: none;
-      border-bottom: 1px solid rgba(90,140,74,0.15);
+      border-bottom: 1px solid rgba(201,150,12,0.15);
     }
     .info-item:last-child { border-bottom: none; }
     .info-label { font-size: 10px; }
@@ -859,8 +867,8 @@
 <!-- NAV -->
 <nav>
   <a href="#" class="nav-logo">
-    巡南记
-    <span>Litsea Cuisine</span>
+    鹿鸣轩
+    <span>Lumingxuan</span>
   </a>
   <ul class="nav-links">
     <li><a href="#menu">菜单 Menu</a></li>
@@ -868,18 +876,18 @@
     <li><a href="#order">订餐 Order</a></li>
     <li><a href="#contact">联系 Contact</a></li>
   </ul>
-  <a href="tel:4167561666" class="nav-reserve">订座 Reserve</a>
+  <a href="tel:4165550188" class="nav-reserve">订座 Reserve</a>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-left">
-    <p class="hero-tag">云南地域民族私房菜 · North York, Toronto</p>
-    <h1 class="hero-zh">巡南记</h1>
-    <p class="hero-en">Litsea Cuisine</p>
+    <p class="hero-tag">粤式私房菜 · Scarborough, Toronto</p>
+    <h1 class="hero-zh">鹿鸣轩</h1>
+    <p class="hero-en">Lumingxuan</p>
     <p class="hero-desc">
-      正宗云南民族风味，融合东南亚香料与云南山野食材。
-      每一道菜，皆是一段来自彩云之南的故事。
+      正宗广府私房风味，传承老广家宴精髓。
+      每一道菜，皆是一份来自岭南的记忆。
     </p>
     <div class="hero-actions">
       <a href="#menu" class="btn-primary">查看菜单</a>
@@ -888,9 +896,9 @@
   </div>
   <div class="hero-right">
     <div class="hero-img-placeholder">
-      <img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=900&q=85&fit=crop" alt="云南菜肴" loading="eager">
+      <img src="https://images.unsplash.com/photo-1558030006-450675393462?w=900&q=85&fit=crop" alt="粤式私房菜" loading="eager">
       <div class="hero-badge">
-        <span class="hero-badge-zh">云南 · 民族 · 私房</span>
+        <span class="hero-badge-zh">广府 · 私房 · 家宴</span>
         <span class="hero-badge-en">Flavour of the Earth</span>
       </div>
     </div>
@@ -908,13 +916,13 @@
   <div class="info-item">
     <div>
       <span class="info-label">地址</span>
-      <span class="info-value">3550 Victoria Park Ave, Unit 100, North York</span>
+      <span class="info-value">888 Sheppard Ave E, Unit 12, Scarborough</span>
     </div>
   </div>
   <div class="info-item">
     <div>
       <span class="info-label">电话订座</span>
-      <span class="info-value">(416) 756-1666</span>
+      <span class="info-value">(416) 555-0188</span>
     </div>
   </div>
 </div>
@@ -931,46 +939,46 @@
 
   <div class="menu-grid">
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=600&q=80&fit=crop&crop=center" alt="云南小锅米线" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1555126634-323283e090fa?w=600&q=80&fit=crop" alt="招牌烧腊拼盘" loading="lazy"></div>
       <div class="menu-card-tag">最受欢迎</div>
       <div class="menu-card-number">#01</div>
-      <div class="menu-card-zh">云南小锅米线</div>
-      <div class="menu-card-en">Yunnan-style Rice Noodles</div>
-      <div class="menu-card-price">$19.54</div>
+      <div class="menu-card-zh">招牌烧腊拼盘</div>
+      <div class="menu-card-en">Signature Roast Meat Platter</div>
+      <div class="menu-card-price">$28.00</div>
     </div>
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1569050467447-ce54b3bbc37d?w=600&q=80&fit=crop&crop=center" alt="肉沫炒米线" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?w=600&q=80&fit=crop" alt="砂锅煲仔饭" loading="lazy"></div>
       <div class="menu-card-number">#02</div>
-      <div class="menu-card-zh">肉沫炒米线</div>
-      <div class="menu-card-en">Stir-fried Rice Noodle with Pork & Southeast Asian Spices</div>
-      <div class="menu-card-price">$19.54</div>
+      <div class="menu-card-zh">砂锅煲仔饭</div>
+      <div class="menu-card-en">Cantonese Clay Pot Rice</div>
+      <div class="menu-card-price">$18.00</div>
     </div>
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80&fit=crop&crop=center" alt="佤族佐料牛肉" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1547592180-85f173990554?w=600&q=80&fit=crop" alt="老火例汤" loading="lazy"></div>
       <div class="menu-card-number">#03</div>
-      <div class="menu-card-zh">佤族佐料牛肉</div>
-      <div class="menu-card-en">Wa-Style Seasoned Beef</div>
-      <div class="menu-card-price">$22.99</div>
+      <div class="menu-card-zh">老火例汤</div>
+      <div class="menu-card-en">Traditional Slow-Cooked Cantonese Soup</div>
+      <div class="menu-card-price">$12.00</div>
     </div>
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80&fit=crop&crop=center" alt="景颇鬼鸡" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?w=600&q=80&fit=crop" alt="姜葱炒花蟹" loading="lazy"></div>
       <div class="menu-card-number">#04</div>
-      <div class="menu-card-zh">景颇鬼鸡（酸辣）</div>
-      <div class="menu-card-en">Jingpo Ghost Chicken — Sour & Spicy</div>
-      <div class="menu-card-price">$21.84</div>
+      <div class="menu-card-zh">姜葱炒花蟹</div>
+      <div class="menu-card-en">Stir-fried Mud Crab with Ginger & Scallion</div>
+      <div class="menu-card-price">$38.00</div>
     </div>
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80&fit=crop&crop=center" alt="野生菌饺子" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1563245372-f21724e3856d?w=600&q=80&fit=crop" alt="虾饺皇" loading="lazy"></div>
       <div class="menu-card-number">#05</div>
-      <div class="menu-card-zh">私房野生菌鲜肉饺</div>
-      <div class="menu-card-en">Wild Mushroom & Pork Dumplings (10 pcs)</div>
-      <div class="menu-card-price">$10.99</div>
+      <div class="menu-card-zh">虾饺皇</div>
+      <div class="menu-card-en">Premium Steamed Shrimp Dumplings (4 pcs)</div>
+      <div class="menu-card-price">$9.00</div>
     </div>
     <div class="menu-card">
-      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1536304929831-ee1ca9d44906?w=600&q=80&fit=crop&crop=center" alt="手抓饭" loading="lazy"></div>
+      <div class="menu-card-img"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80&fit=crop" alt="清蒸游水海鱼" loading="lazy"></div>
       <div class="menu-card-number">#06</div>
-      <div class="menu-card-zh">泡鲁达 · 手抓饭</div>
-      <div class="menu-card-en">Polo Roti · Dai-style Hand Rice</div>
+      <div class="menu-card-zh">清蒸游水海鱼</div>
+      <div class="menu-card-en">Steamed Fresh Fish — Cantonese Style</div>
       <div class="menu-card-price">时价</div>
     </div>
   </div>
@@ -980,16 +988,16 @@
 <section class="section-order" id="order">
   <div class="order-text">
     <span class="section-tag">外卖与堂食</span>
-    <h2 class="order-title">在家也能<br>品味云南</h2>
+    <h2 class="order-title">在家也能<br>品味广府</h2>
     <p class="order-desc">
       通过 Uber Eats 或 Fantuan 饭团外卖，
-      将正宗云南风味直接送到您家门口。
+      将正宗粤式私房菜直接送到您家门口。
     </p>
     <div class="order-buttons">
-      <a href="https://www.ubereats.com/ca/store/%E5%B7%A1%E5%8D%97%E8%AE%B0-litsea-cuisine/wTWyJLCpU12MgbOHH1dBPA" target="_blank" class="btn-order">
+      <a href="#" target="_blank" class="btn-order">
         Uber Eats 订餐
       </a>
-      <a href="https://www.fantuanorder.com/en-US/store/litsea-cuisine/ca-1725897341" target="_blank" class="btn-order">
+      <a href="#" target="_blank" class="btn-order">
         Fantuan 饭团外卖
       </a>
     </div>
@@ -1008,17 +1016,17 @@
     <hr class="hours-divider">
     <div class="contact-row">
       <span class="contact-label">电话</span>
-      <a href="tel:4167561666" class="contact-value">(416) 756-1666</a>
+      <a href="tel:4165550188" class="contact-value">(416) 555-0188</a>
     </div>
     <div class="contact-row">
       <span class="contact-label">地址</span>
       <a href="https://maps.google.com/?q=3550+Victoria+Park+Ave+unit+100+North+York" target="_blank" class="contact-value">
-        3550 Victoria Park Ave, Unit 100<br>North York, ON M2H 2E1
+        888 Sheppard Ave E, Unit 12<br>Scarborough, ON M1S 5K2
       </a>
     </div>
     <div class="contact-row">
       <span class="contact-label">停车</span>
-      <span class="contact-value" style="color:rgba(240,244,238,0.45);font-size:17px;">Victoria Park Place 免费地下停车场</span>
+      <span class="contact-value" style="color:rgba(253,246,236,0.45);font-size:17px;">大楼附设免费停车场</span>
     </div>
   </div>
 </section>
@@ -1026,36 +1034,36 @@
 <!-- ABOUT -->
 <section class="section-about" id="about">
   <div class="about-visual">
-    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9?w=800&q=85&fit=crop" alt="餐厅环境" style="width:100%;height:100%;object-fit:cover;display:block;">
-    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(15,26,13,0.7) 0%, rgba(15,26,13,0.2) 50%, transparent 100%);"></div>
+    <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=85&fit=crop" alt="餐厅环境" style="width:100%;height:100%;object-fit:cover;display:block;">
+    <div style="position:absolute;inset:0;background:linear-gradient(to top, rgba(26,14,5,0.7) 0%, rgba(26,14,5,0.2) 50%, transparent 100%);"></div>
     <div class="about-visual-inner" style="position:absolute;bottom:40px;left:40px;text-align:left;z-index:2;">
-      <div class="about-visual-text" style="letter-spacing:0.25em;">云南 · 民族</div>
-      <div class="about-visual-sub">Yunnan · Ethnic Cuisine</div>
+      <div class="about-visual-text" style="letter-spacing:0.25em;">广府 · 私房</div>
+      <div class="about-visual-sub">Cantonese · Private Kitchen</div>
     </div>
   </div>
 
   <div class="about-content">
-    <span class="section-tag">关于巡南记</span>
-    <h2 class="section-title-zh" style="margin-bottom:24px;">彩云之南<br>的味道</h2>
+    <span class="section-tag">关于鹿鸣轩</span>
+    <h2 class="section-title-zh" style="margin-bottom:24px;">岭南风味<br>私房传承</h2>
     <p class="about-body">
-      巡南记以云南地域民族私房菜为核心，
-      将佤族、景颇族、傣族等少数民族的传统食材与烹饪技法带到多伦多。
+      鹿鸣轩以正宗广府私房菜为核心，
+      将老广家宴的传统食材与烹饪技法带到多伦多。
     </p>
     <div class="about-highlight">
-      五彩花生米、手抓饭、泡鲁达——<br>
-      每一道菜背后，都是云南大地的故事。
+      烧腊、煲仔饭、老火靓汤——<br>
+      每一道菜背后，都是岭南家的味道。
     </div>
     <p class="about-body">
-      菌菇汤底鲜美，蘸料辣而过瘾，
-      食材天然，香料纯正，环境出片。
-      来自小红书3000+粉丝好评的多伦多云南餐厅。
+      食材新鲜，火候到位，汤底醇厚。
+      坚持广府传统做法，不走捷径。
+      多伦多粤菜爱好者心中的隐藏宝藏。
     </p>
     <div class="tags-list">
-      <span class="tag">云南菜</span>
-      <span class="tag">民族风味</span>
-      <span class="tag">米线</span>
-      <span class="tag">手抓饭</span>
-      <span class="tag">东南亚香料</span>
+      <span class="tag">粤菜</span>
+      <span class="tag">私房菜</span>
+      <span class="tag">烧腊</span>
+      <span class="tag">煲仔饭</span>
+      <span class="tag">老火靓汤</span>
       <span class="tag">堂食 · 外卖</span>
     </div>
   </div>
@@ -1064,9 +1072,9 @@
 <!-- FOOTER -->
 <footer>
   <div>
-    <div class="footer-brand-zh">巡南记</div>
-    <div class="footer-brand-en">Litsea Cuisine</div>
-    <p class="footer-tagline">云南地域民族私房菜<br>Authentic Yunnan Ethnic Cuisine<br>North York, Toronto</p>
+    <div class="footer-brand-zh">鹿鸣轩</div>
+    <div class="footer-brand-en">Lumingxuan</div>
+    <p class="footer-tagline">粤式私房菜<br>Authentic Cantonese Private Kitchen<br>Scarborough, Toronto</p>
   </div>
   <div>
     <div class="footer-heading">快速导航</div>
@@ -1080,15 +1088,15 @@
   <div>
     <div class="footer-heading">联系我们</div>
     <div class="footer-address">
-      3550 Victoria Park Ave<br>
-      Unit 100, North York<br>
-      ON M2H 2E1<br><br>
-      <a href="tel:4167561666" style="color:rgba(240,244,238,0.45);text-decoration:none;">(416) 756-1666</a><br><br>
+      888 Sheppard Ave E<br>
+      Unit 12, Scarborough<br>
+      ON M1S 5K2<br><br>
+      <a href="tel:4165550188" style="color:rgba(253,246,236,0.45);text-decoration:none;">(416) 555-0188</a><br><br>
       每日营业 12:00 – 23:00
     </div>
   </div>
   <div class="footer-bottom">
-    <span class="footer-copy">© 2025 巡南记 Litsea Cuisine · All Rights Reserved</span>
+    <span class="footer-copy">© 2025 鹿鸣轩 Lumingxuan · All Rights Reserved</span>
     <span class="footer-copy">North York · Toronto · Canada</span>
   </div>
 </footer>
